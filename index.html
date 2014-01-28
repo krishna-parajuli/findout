@@ -135,8 +135,9 @@
 
     <script src="js/main.js"></script>
     <script src="js/frame.js"></script>
-    <script>
-
+    <script> src="js/dictionary.jsonp"</script>
+    <script type="text/javascript">
+	
     var drag = false;
 
 
@@ -167,9 +168,15 @@
       scrambleBox.setParam(50,50,10,10);
       scrambleBox.setContext(ctx);
       var correctAns = ["CRONYISM","ABUSE"];
-      var dictionary = []; // supposed to be the parsed JSON.. for prototype values are directly assigned
-      dictionary["cronyism"] = "Favouritism for Colleagues or Friends";
-      dictionary["abuse"] = "use (something) to bad effect or for a bad purpose; misuse";
+      
+      var dictionary = JSON.parse(jsonstr); // parsing json.
+      
+      foreach (i in dictionary) {
+		  word = document.getElementById(i.word).innerHTML = dictionary.word;
+		  meaning = document.getElementById(i.meaning).innerHTML = dictionary.meaning;
+	  }
+      //dictionary["cronyism"] = "Favouritism for Colleagues or Friends";
+      //dictionary["abuse"] = "use (something) to bad effect or for a bad purpose; misuse";
       scrambleBox.setCorrectAnswer(correctAns);
       scrambleBox.setDictionary( dictionary );
 

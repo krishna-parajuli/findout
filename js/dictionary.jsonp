@@ -1,5 +1,4 @@
-{
-     "words":[
+jsonstr = [
      {"word":"Cronyism","meaning":"favouritism for colleagues or friends"},
      {"word":"Nepotism","meaning":"favourtism granted in politics or business to relative"},
      {"word":"Corruption","meaning":"the act of imparing integrity, virtue or moral principle"},
@@ -16,5 +15,4 @@
      {"word":"Patronage","meaning":"the power to control appointments to office or the right to privileges"}, 
      {"word":"Fiduciary Failure","meaning":"failure to keep trust"},
      {"word":"Rigged Bid","meaning":"a form of fraud in which a commercial contract is promised to one party even though for the sake of appearance several other parties also present a bid"}
-     ]
-}
+     ];
