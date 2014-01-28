@@ -19,10 +19,10 @@
 ##########################################################################
 
 ## Development Team: 	Krishna Parajuli <krishna.parajuli2010@gmail.com>
-##			Everest K.C.
+##			Everest K.C. <babueverst@gmail.com>
 ##			Akash Shrestha
 ##			Sagar Sharma
-##			Bidhya Sharma
+##			Bidhya Nandan Sharma <bidsh7@gmail.com>
 ##			Sushant Kafle
 
 ## Created: 2014-01-28
